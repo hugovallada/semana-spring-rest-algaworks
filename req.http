@@ -1,0 +1,10 @@
+POST http://localhost:8080/ordens-servico HTTP/1.1
+content-type: application/json
+
+{
+    "cliente":{
+        "id": 1
+    },
+    "descricao":"",
+    "preco":300.50
+}
